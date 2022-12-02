@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+no-subir/
+=======
+node_modules/
+package-lock.json
+package.json
+>>>>>>> cf4d834740f437444b06b755aef34e551c676c92

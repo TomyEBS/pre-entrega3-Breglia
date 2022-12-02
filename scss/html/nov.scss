@@ -1,0 +1,123 @@
+.body-nov{
+    margin: 0;
+    padding: 0;
+    
+ .titulo-nov{
+background-color: $color-principal;
+text-align: center;
+ }
+    
+.novedad1{
+    background-color: $color-secundario;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 50px;
+    box-shadow: (7px 7px 5px pink);
+    text-shadow: (2px 2px 7px whitesmoke);
+    animation-name: noticia;
+    animation-duration: 3s;
+
+    img{
+        width: 300px;
+    }
+}
+
+@keyframes noticia{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+
+
+.card{
+    width: 700px;
+    height: 500px;
+    background-color: $color-secundario;
+    padding-top: 30px;
+    display: block;
+    
+    img{
+        height: 300px;
+        width: 500px;
+        margin-left: 100px;
+    }
+
+.card-title{
+    text-align: center;
+    text-shadow: (2px 2px 4px whitesmoke);
+    color: white;
+    
+}
+
+.card-text{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.btn{
+    background-color: pink;
+    border-color: pink;
+    margin-left: 250px;
+}
+
+.btn:hover{
+    background-color: rgb(245, 177, 188);
+}
+
+
+}
+@media screen and (max-width:768px){
+.card{
+    width: 380px;
+    height: 600px;
+
+img{
+    width: 300px;
+    margin-left: 50px;
+}
+
+.btn{
+    margin-left: 120px;
+}
+
+}
+
+
+
+
+
+}     
+
+
+
+
+
+}
+    
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

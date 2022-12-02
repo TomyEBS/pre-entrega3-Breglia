@@ -1,0 +1,179 @@
+<<<<<<< HEAD
+@import "utilidades/variables.scss";
+=======
+@import "variables.scss";
+>>>>>>> cf4d834740f437444b06b755aef34e551c676c92
+
+body{
+margin: 0;
+padding: 0;
+position: relative;
+<<<<<<< HEAD
+padding-bottom:  20rem;
+=======
+padding-bottom:  30rem;
+>>>>>>> cf4d834740f437444b06b755aef34e551c676c92
+
+nav{
+    background-color:  $color-secundario;
+     
+}
+}
+ 
+    .titulo {
+<<<<<<< HEAD
+      background-color: $color-terciario;
+=======
+      background-color: $color-secundario;
+>>>>>>> cf4d834740f437444b06b755aef34e551c676c92
+        margin: 10px;
+        margin-top: 30px;
+        padding: 100px;
+        padding-top: 60px;
+        display: grid;
+        gap: 20rem;
+        grid-auto-rows: 22rem;
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+    
+    .button{
+        border-radius: 3px;
+        display: inline-block;
+        padding: 25px;
+        padding-left: 70px;
+        padding-right: 70px;
+        text-decoration: none;
+        text-align: center;
+        color:whitesmoke;
+<<<<<<< HEAD
+        background-color: $color-secundario;
+        margin-top: 200px;
+        margin-left: 45%;
+    }
+    .button-position :hover{
+    background-color: rgb(209, 122, 135); 
+=======
+        background-color: $color-terciario;
+        margin-top: 50px;
+        margin-left: 45%;
+    }
+    .button-position :hover{
+    background-color: $color-secundario;
+>>>>>>> cf4d834740f437444b06b755aef34e551c676c92
+    color: white;
+    box-shadow: 2px 2px 5px 0px black;
+    }
+
+    /*Estilos del footer*/
+    .pie-pagina{
+      width: 100%;
+      height: 9rem;
+      background-color: rgb(233, 132, 149);
+      position: absolute;
+      bottom: 0;
+   }
+  
+   .pie-pagina .grupo-1{
+      width: 100%;
+      min-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 50px;
+      padding: 45px 0px;
+   }
+  
+   .pie-pagina .grupo-1 .box{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+   }
+  
+   .pie-pagina .grupo-1 .box h2{
+      color: whitesmoke;
+<<<<<<< HEAD
+      margin-right: 10px;
+=======
+      margin-bottom:25px;
+>>>>>>> cf4d834740f437444b06b755aef34e551c676c92
+      font-size: 20px;
+   }
+   
+   .pie-pagina .grupo-1 .red-social a{
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: whitesmoke;
+      margin-right: 10px;
+      background-color: rgb(229, 182, 190);
+      text-align: center;
+   }
+  
+   .pie-pagina .derechos{
+  background-color:  rgb(229, 182, 190);
+  padding: 15px 10px;
+  text-align: center;
+  color: whitesmoke;
+   }
+  
+   .pie-pagina .derechos small{
+      font-size: 15px;
+   }
+
+ .derechos-2{
+   display: none;
+ }
+
+ @media screen and (max-width:768px){
+   body{
+     margin: 0;
+     display: flex;
+     min-height: 100vh;
+     flex-wrap: wrap;
+     padding: 0;
+   
+  nav{
+     width: 100%;
+  }
+  }
+   
+   .titulo{
+       gap: 3px;
+       padding-right: 2rem;
+       margin-right: 1rem;
+<<<<<<< HEAD
+       height: 400px;
+   }
+
+   .titulo img{
+    visibility: hidden;
+=======
+>>>>>>> cf4d834740f437444b06b755aef34e551c676c92
+   }
+
+.pie-pagina{
+      display: none ;
+   }
+
+  .button{
+     margin-left: 6rem;
+     margin-bottom: 10rem;
+  }
+
+   .derechos-2{
+     display: block;
+     background-color: $color-terciario;
+     padding: 12px 10px;
+     text-align: center;
+     color: whitesmoke;
+     align-self: flex end;
+     width: 100%;
+     height: 50px;
+   }
+ 
+}

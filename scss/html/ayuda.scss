@@ -1,0 +1,89 @@
+ .body-ayuda{
+ body{
+   margin: 0;
+   padding: 0;
+ }
+
+ h1{
+    background-color: $color-principal;
+    height: 5rem;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+h2{
+text-align: center;
+background-color: $color-terciario;
+margin: 5px;
+margin-top: 2rem;
+height: 50px;
+
+}
+
+.mdp{
+   h3{
+      display: inline-block;
+      margin-left: 16.5rem;
+   }
+   img{
+    background-color: pink;
+    box-shadow: (10px 5px 2px rgb(255, 227, 232));
+    padding: 15px;
+      width: 100px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+   display: inline-block;
+   margin-left: 19rem;
+ 
+
+   //animacion
+   animation-name: mdp;
+   animation-duration: 3s;
+}
+@keyframes mdp{
+
+   0%{
+      opacity: 0;
+      margin-top: 3rem;
+   }
+   
+    
+
+   100%{
+      opacity: 1;
+      margin-top: 1rem;
+   }
+
+}
+}
+
+ h3{
+   text-align: center;
+ }
+
+p{
+   margin: 5px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

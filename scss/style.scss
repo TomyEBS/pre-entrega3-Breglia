@@ -1,0 +1,24 @@
+ // comentario
+ /*Comentario sass y css*/
+
+ //hojas secundarios
+<<<<<<< HEAD
+ 
+ //páginas
+ @import "html/index.scss";
+@import "html/ayuda.scss";
+@import "html/pro.scss";
+@import "html/cont.scss";
+@import "html/nov.scss";
+
+
+//utilidades
+@import "utilidades/mixin";
+@import "utilidades/variables";
+=======
+ @import "html/index.scss";
+@import "_variables.scss";
+@import "html/pro.scss"
+>>>>>>> cf4d834740f437444b06b755aef34e551c676c92
+ //nesting
+

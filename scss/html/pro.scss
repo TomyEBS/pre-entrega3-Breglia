@@ -1,0 +1,68 @@
+.body-pro{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(184, 233, 228);
+    margin: 0;
+    position: relative;
+   padding-bottom: 15rem;
+    min-height: 100vh;
+}
+
+.titulo2{
+    background-color:rgb(229, 182, 190);
+ 
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.productos{
+    display: flex;
+    align-items: center;
+}
+
+.productos img{
+    margin: 70px;
+    height: 30rem;
+    width: 30rem;
+}
+
+/*estilos card*/
+.color-boton{
+    background-color: rgb(243, 180, 191);
+}
+.card{
+margin-top: 20px;
+<<<<<<< HEAD
+margin-left: 50px;
+=======
+>>>>>>> cf4d834740f437444b06b755aef34e551c676c92
+
+}
+.card img{
+    height: 200px;
+    width: 200px;
+   
+<<<<<<< HEAD
+}
+
+@media screen and (max-width:768px){
+    .titulo2{
+    width: 100%;
+}
+
+.derechos-2{
+    display: block;
+    background-color: $color-terciario;
+    padding: 12px 10px;
+    text-align: center;
+    color: whitesmoke;
+    align-self: flex end;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+
+=======
+>>>>>>> cf4d834740f437444b06b755aef34e551c676c92
+}
